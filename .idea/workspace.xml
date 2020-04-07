@@ -11,12 +11,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73bf7dc4-067f-4b3a-b51c-05a0f3b9ca6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
+    <list default="true" id="73bf7dc4-067f-4b3a-b51c-05a0f3b9ca6e" name="Default Changelist" comment="file support">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lsfr.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lsfr.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +31,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="lsfr" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/QtProjects/lsfr" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
     <configuration name="lsfr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lsfr" TARGET_NAME="lsfr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lsfr" RUN_TARGET_NAME="lsfr">
@@ -70,50 +76,87 @@
       <updated>1586157882754</updated>
       <workItem from="1586157890328" duration="3171000" />
       <workItem from="1586191088279" duration="7987000" />
-      <workItem from="1586240299377" duration="5026000" />
+      <workItem from="1586240299377" duration="10244000" />
+      <workItem from="1586265947463" duration="5056000" />
     </task>
+    <task id="LOCAL-00001" summary="file support">
+      <created>1586257995083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586257995083</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="file support" />
+    <option name="LAST_COMMIT_MESSAGE" value="file support" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="726" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586258048858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586258048858" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586199210908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586199210908" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1586257926935">
+    <state x="562" y="95" key="CommitChangelistDialog2" timestamp="1586271500653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586257926935" />
-    <state x="184" y="88" key="DiffContextDialog" timestamp="1586257925640">
+    <state x="562" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586271500653" />
+    <state x="184" y="88" width="1536" height="860" key="DiffContextDialog" timestamp="1586270456844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="88" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586257925640" />
+    <state x="184" y="88" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586270456844" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586160826036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586160826036" />
-    <state width="1877" height="387" key="GridCell.Tab.0.bottom" timestamp="1586256067420">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom" timestamp="1586271419384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586256067420" />
-    <state width="1877" height="387" key="GridCell.Tab.0.center" timestamp="1586256067420">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
+    <state width="1877" height="387" key="GridCell.Tab.0.center" timestamp="1586271419384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586256067420" />
-    <state width="1877" height="387" key="GridCell.Tab.0.left" timestamp="1586256067420">
+    <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
+    <state width="1877" height="387" key="GridCell.Tab.0.left" timestamp="1586271419384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586256067420" />
-    <state width="1877" height="387" key="GridCell.Tab.0.right" timestamp="1586256067420">
+    <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right" timestamp="1586271419384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586256067420" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1586159875561">
+    <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586270632936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586159875561" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586270632936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586270632936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586270632936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1586270456361">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586270456361" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586257998070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586257998070" />
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586157901019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
