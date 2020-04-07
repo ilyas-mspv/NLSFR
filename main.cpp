@@ -1,30 +1,27 @@
 #include <iostream>
 #include <vector>
 #include <math.h>
+#include <fstream>
 
 using namespace std;
 
 int main(){
 
-    // Ф(x) = x^8 + x^7 + x^5 + x^3 + 1
-    // n = 8  L = 2
-    // 1 1 0 1 0 1 0 0
 
-    int n = 2; // степень старшего многочлена
-    int L = 5; // система счисления
+    ofstream out("out.txt");
+
+    int n, L;
 
     cout<<"Enter number system (L):\n";
     cin >> L;
     cout<<"Enter degree of the senior polynomial (N):\n";
     cin >> n;
-    vector<int> a(n), t(n);
+    vector<int> a(n), t(n), vars(n), alpha(n);
 
     cout<<"Enter coefficients of the polynomial F(x):\n";
-    vector <int> vars(n);
     for (int i = 0; i < n; i++) cin >> vars[i];
 
     cout<<"Enter a1, a2, ..., an:\n";
-    vector<int> alpha(n);
     for (int i = 0; i < n; ++i) cin>> alpha[i];
 
     // инициализация начального состояния
@@ -34,6 +31,10 @@ int main(){
     cout << '\n';
     for (int i = n - 1; i >= 0; i--) cout << a[i] << ' ';
     cout << '\n';
+
+    for (int i = n - 1; i >= 0; i--) out << a[i] << ' ';
+    out << '\n';
+
 
     for (int g = 1; g < pow(L,n) - 1; g++) {
 
@@ -50,13 +51,17 @@ int main(){
                 a[i] = (t[n-1-i] + (a[0] * vars[n-1-i] + alpha[n-1-i]) % L) % L;
 
             cout << a[i] << ' ';
+            out  << a[i] << ' ';
         }
-        cout << "\n";
+
+
+        cout << '\n';
+        out << '\n';
     }
 
     cout<<"\niterations: " << pow(L,n)-1;
+    out<<"\niterations: " << pow(L,n)-1;
 
-    //todo insert into file
     //todo check all possible values
     //todo gui
 

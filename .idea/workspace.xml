@@ -11,7 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73bf7dc4-067f-4b3a-b51c-05a0f3b9ca6e" name="Default Changelist" comment="" />
+    <list default="true" id="73bf7dc4-067f-4b3a-b51c-05a0f3b9ca6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lsfr.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lsfr.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +28,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -28,6 +38,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1a9pu4KgmW2siZyWJnAcR7kjtuA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/QtProjects/lsfr" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -57,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586157882754</updated>
       <workItem from="1586157890328" duration="3171000" />
-      <workItem from="1586191088279" duration="7645000" />
+      <workItem from="1586191088279" duration="7987000" />
+      <workItem from="1586240299377" duration="5026000" />
     </task>
     <servers />
   </component>
@@ -69,26 +82,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586199210908" />
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1586257926935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586257926935" />
+    <state x="184" y="88" key="DiffContextDialog" timestamp="1586257925640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="88" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586257925640" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586160826036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586160826036" />
-    <state width="1877" height="387" key="GridCell.Tab.0.bottom" timestamp="1586198531879">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom" timestamp="1586256067420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586198531879" />
-    <state width="1877" height="387" key="GridCell.Tab.0.center" timestamp="1586198531879">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586256067420" />
+    <state width="1877" height="387" key="GridCell.Tab.0.center" timestamp="1586256067420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586198531879" />
-    <state width="1877" height="387" key="GridCell.Tab.0.left" timestamp="1586198531879">
+    <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586256067420" />
+    <state width="1877" height="387" key="GridCell.Tab.0.left" timestamp="1586256067420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586198531879" />
-    <state width="1877" height="387" key="GridCell.Tab.0.right" timestamp="1586198531879">
+    <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586256067420" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right" timestamp="1586256067420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586198531879" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586256067420" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1586159875561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
