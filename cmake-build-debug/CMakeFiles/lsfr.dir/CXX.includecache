@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/User/CLionProjects/lsfr/main.cpp
-iostream
--
-vector
--
+/home/ilyas/CLionProjects/NLSFR/main.cpp
 cmath
 -
 fstream
+-
+set
+-
+stage.cpp
+/home/ilyas/CLionProjects/NLSFR/stage.cpp
+
+/home/ilyas/CLionProjects/NLSFR/stage.cpp
+iostream
+-
+vector
 -
 

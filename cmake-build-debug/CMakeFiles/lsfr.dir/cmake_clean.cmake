@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lsfr.dir/main.cpp.obj"
-  "liblsfr.dll.a"
-  "lsfr.exe"
-  "lsfr.exe.manifest"
+  "CMakeFiles/lsfr.dir/main.cpp.o"
+  "lsfr"
   "lsfr.pdb"
 )
 
