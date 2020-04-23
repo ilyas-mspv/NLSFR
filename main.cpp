@@ -3,9 +3,48 @@
 #include <set>
 #include "stage.cpp"
 
+set<condition> col;
+
+vector<condition> calculateCircle(vector<int> vars, vector<int> alpha, vector<int> a, int L){
+    int n = a.size();
+    vector<condition> output;
+    vector<int> temp(n);
+
+    condition first;
+    first.a.resize(n);
+    for (int i = 0; i < first.a.size(); ++i) first.a[i] = a[i];
+    col.insert(first);
+    output.push_back(first);
+
+    for (int j = 1; j < pow(L, n); ++j) {
+        condition cond;
+
+        temp[0] = a[0];
+        for (int i = 1; i < n; i++)
+            temp[i] = a[n - i];
+
+        for (int i = n - 1; i >= 0; --i) {
+
+            if (i == n - 1)
+                a[i] = (a[0] * vars[n - 1 - i] + alpha[n - 1 - i]) % L;
+            else
+                a[i] = (temp[n - 1 - i] + (a[0] * vars[n - 1 - i] + alpha[n - 1 - i]) % L) % L;
+        }
+
+        cond.a.resize(n);
+        for (int i = 0; i < n; ++i) cond.a[i] = a[i];
+
+        if (col.find(cond) == col.end())
+            output.push_back(cond);
+
+        col.insert(cond);
+    }
+    return output;
+}
+
 int main() {
 
-    int n, L, *templ;
+    int n, L;
 
     cout << "Enter number system (L):\n";
     cin >> L;
@@ -16,61 +55,21 @@ int main() {
     for (int i = 0; i < n; i++) cin >> vars[i]; // коэффициенты многочлена
     cout << "Enter a1, a2, ..., an:\n";
     for (int i = 0; i < n; ++i) cin >> alpha[i]; // добавочные коэффициенты
+    cout<< "Enter initial state of register:\n";
+    for (int i = n - 1; i >= 0; i--) cin >> a[i];
 
 
     vector<condition> collection;
 
-    collection = initCollection(templ,L,n);
+    collection = initCollection(L,n);
 
-    // инициализация и вывод начального состояния (1 0 0 ..)
-    a[n - 1] = 1;
-    for (int i = n - 2; i >= 0; i--) a[i] = 0;
-
-
-    set<condition> col;
     vector<condition> outputCollection;
+    outputCollection = calculateCircle(vars,alpha,a,L);
 
-    outputCollection.resize(pow(L,n));
-    condition initialCondition;
-    initialCondition.a.resize(n);
-    for (int i = 0; i < n; ++i) {
-        initialCondition.a[i] = a[i];
-    }
-    col.insert(initialCondition);
-    outputCollection[0] = initialCondition;
 
-    for (int j = 1; j < pow(L, n); ++j) {
-        condition con;
+    printCollection(outputCollection);
+    printCollection(collection);
 
-        //сохранение предыдущего состояния регистра
-        temp[0] = a[0];
-        for (int i = 1; i < n; i++)
-            temp[i] = a[n - i];
-
-        // обновление состояния регистра
-        for (int i = n - 1; i >= 0; --i) {
-            if (i == n - 1)
-                // обновление крайней ячейки регистра
-                a[i] = (a[0] * vars[n - 1 - i] + alpha[n - 1 - i]) % L;
-            else
-                // обновление остальных ячеек регистра
-                a[i] = (temp[n - 1 - i] + (a[0] * vars[n - 1 - i] + alpha[n - 1 - i]) % L) % L;
-
-        }
-
-        con.a.resize(n);
-        for (int i = 0; i < n; ++i) {
-            con.a[i] = a[i];
-        }
-
-        if (col.find(con) == col.end()) {
-            outputCollection[j] = con;
-        }
-        col.insert(con);
-
-    }
-
-    printCollection(outputCollection,n);
 
     //todo вырожденное кольцо
     //todo gui
