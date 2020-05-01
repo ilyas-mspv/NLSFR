@@ -8,86 +8,82 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ilyas/CLionProjects/NLSFR/cmake-build-debug"/>
+				<Option working_dir="D:/Projects/LSFR/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/ilyas/CLionProjects/NLSFR/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ilyas/CLionProjects/NLSFR/cmake-build-debug"/>
+				<Option working_dir="D:/Projects/LSFR/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lsfr">
-				<Option output="/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/lsfr" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ilyas/CLionProjects/NLSFR/cmake-build-debug"/>
+				<Option output="D:/Projects/LSFR/cmake-build-debug/lsfr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/LSFR/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 lsfr"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 lsfr"/>
+					<CompileFile command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lsfr/fast">
-				<Option output="/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/lsfr" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ilyas/CLionProjects/NLSFR/cmake-build-debug"/>
+				<Option output="D:/Projects/LSFR/cmake-build-debug/lsfr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/LSFR/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 lsfr/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ilyas/CLionProjects/NLSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 lsfr/fast"/>
+					<CompileFile command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Projects/LSFR/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/LSFR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ilyas/CLionProjects/NLSFR/main.cpp">
+		<Unit filename="D:/Projects/LSFR/main.cpp">
 			<Option target="lsfr"/>
 		</Unit>
-		<Unit filename="/home/ilyas/CLionProjects/NLSFR/CMakeLists.txt">
+		<Unit filename="D:/Projects/LSFR/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

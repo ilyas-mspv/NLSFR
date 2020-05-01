@@ -1,4 +1,18 @@
-/snap/clion/111/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ilyas/CLionProjects/NLSFR
+"D:\Programs\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Projects\LSFR
+-- The C compiler identification is GNU 8.1.0
+-- The CXX compiler identification is GNU 8.1.0
+-- Check for working C compiler: D:/Programs/mingw/mingw64/bin/gcc.exe
+-- Check for working C compiler: D:/Programs/mingw/mingw64/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Programs/mingw/mingw64/bin/g++.exe
+-- Check for working CXX compiler: D:/Programs/mingw/mingw64/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ilyas/CLionProjects/NLSFR/cmake-build-debug
+-- Build files have been written to: D:/Projects/LSFR/cmake-build-debug

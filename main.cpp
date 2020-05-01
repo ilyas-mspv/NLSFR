@@ -66,10 +66,28 @@ int main() {
     vector<condition> outputCollection;
     outputCollection = calculateCircle(vars,alpha,a,L);
 
+    vector<condition> test;
+
+
+    bool check;
+    for (auto & i : collection) {
+        check = false;
+        for (auto & j : outputCollection) {
+            if(i == j){
+                check = true;
+                break;
+            }
+        }
+        if( !check ){
+            test.push_back(i);
+        }
+
+    }
+
 
     printCollection(outputCollection);
     printCollection(collection);
-
+    printCollection(test);
 
     //todo вырожденное кольцо
     //todo gui

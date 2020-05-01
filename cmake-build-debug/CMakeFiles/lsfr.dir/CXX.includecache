@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ilyas/CLionProjects/NLSFR/main.cpp
+D:/Projects/LSFR/main.cpp
 cmath
 -
 fstream
@@ -14,9 +14,9 @@ fstream
 set
 -
 stage.cpp
-/home/ilyas/CLionProjects/NLSFR/stage.cpp
+D:/Projects/LSFR/stage.cpp
 
-/home/ilyas/CLionProjects/NLSFR/stage.cpp
+D:/Projects/LSFR/stage.cpp
 iostream
 -
 vector

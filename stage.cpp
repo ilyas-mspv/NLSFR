@@ -15,6 +15,13 @@ struct condition{
 inline bool operator<(const condition& lhs, const condition& rhs){
     return lhs.a < rhs.a;
 }
+inline bool operator!=(const condition& lhs, const condition& rhs){
+    return lhs.a != rhs.a;
+}
+
+inline bool operator==(const condition& lhs, const condition& rhs){
+    return lhs.a == rhs.a;
+}
 
 bool collectionReplaceSet(int *a, int n, int m)
 {
