@@ -15,9 +15,6 @@ struct condition{
 inline bool operator<(const condition& lhs, const condition& rhs){
     return lhs.a < rhs.a;
 }
-inline bool operator!=(const condition& lhs, const condition& rhs){
-    return lhs.a != rhs.a;
-}
 
 inline bool operator==(const condition& lhs, const condition& rhs){
     return lhs.a == rhs.a;
@@ -60,20 +57,26 @@ vector<condition> initCollection(int L, int n){
     return collection;
 }
 
-void printCollection(vector<condition> collection){
+void printCollection(vector<vector<condition>> collection, bool withNum = true){
     ofstream out("out.txt");
-    for (int i = 0; i < collection.size(); ++i) {
-        condition t = collection[i];
-        cout.width(3);
-        cout<< i+1 <<": ";
-        out.width(3);
-        out<< i+1 <<": ";
-        for (int j = t.a.size()-1; j >= 0; --j) {
-            cout<<t.a[j]<<' ';
-            out <<t.a[j]<<' ';
+    for (int k = 0; k < collection.size(); ++k) {
+        cout<< k+1 << " circle:\n";
+        out<< k+1 << "circle:\n";
+        for (int i = 0; i < collection[k].size(); ++i) {
+            condition t = collection[k][i];
+            cout.width(3);
+            out.width(3);
+            if(withNum){
+                cout<< i+1 <<": ";
+                out<< i+1 <<": ";
+            }
+            for (int j = t.a.size()-1; j >= 0; --j) {
+                cout<<t.a[j]<<' ';
+                out <<t.a[j]<<' ';
+            }
+            cout<<'\n';out<<'\n';
         }
         cout<<'\n';out<<'\n';
     }
-    cout<<'\n';out<<'\n';
 }
 

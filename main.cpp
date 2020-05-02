@@ -43,7 +43,6 @@ vector<condition> calculateCircle(vector<int> vars, vector<int> alpha, vector<in
 }
 
 int main() {
-
     int n, L;
 
     cout << "Enter number system (L):\n";
@@ -59,36 +58,33 @@ int main() {
     for (int i = n - 1; i >= 0; i--) cin >> a[i];
 
 
-    vector<condition> collection;
+    vector<condition> collection = initCollection(L,n);
 
-    collection = initCollection(L,n);
+    vector<vector<condition>> outputCollection;
+    outputCollection.push_back(calculateCircle(vars,alpha,a,L));
 
-    vector<condition> outputCollection;
-    outputCollection = calculateCircle(vars,alpha,a,L);
 
-    vector<condition> test;
-
+    //todo optimize code
 
     bool check;
     for (auto & i : collection) {
         check = false;
         for (auto & j : outputCollection) {
-            if(i == j){
-                check = true;
-                break;
+            for (auto & k : j) {
+                if(i == k){
+                    check = true;
+                    break;
+                }
             }
         }
         if( !check ){
-            test.push_back(i);
+            outputCollection.push_back(calculateCircle(vars,alpha,i.a,L));
         }
-
     }
 
+    printCollection(outputCollection,false);
 
-    printCollection(outputCollection);
-    printCollection(collection);
-    printCollection(test);
+    cout<<"Total: "<< pow(L,n);
 
-    //todo вырожденное кольцо
     //todo gui
 }

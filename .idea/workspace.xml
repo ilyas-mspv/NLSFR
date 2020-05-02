@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="lsfr" targetName="lsfr" />
@@ -11,34 +29,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73bf7dc4-067f-4b3a-b51c-05a0f3b9ca6e" name="Default Changelist" comment="">
+    <list default="true" id="73bf7dc4-067f-4b3a-b51c-05a0f3b9ca6e" name="Default Changelist" comment="Вывод состояний, не вошедших в кольцо с начальной инициализацией">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lsfr.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lsfr.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lsfr.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lsfr.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -111,7 +103,8 @@
       <workItem from="1587658571383" duration="610000" />
       <workItem from="1588024880527" duration="1068000" />
       <workItem from="1588070408874" duration="2527000" />
-      <workItem from="1588359007793" duration="2508000" />
+      <workItem from="1588359007793" duration="2617000" />
+      <workItem from="1588373016232" duration="4630000" />
     </task>
     <task id="LOCAL-00001" summary="file support">
       <created>1586257995083</created>
@@ -127,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587034519682</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Вывод состояний, не вошедших в кольцо с начальной инициализацией">
+      <created>1588361602905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588361602905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,12 +143,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="file support" />
     <MESSAGE value="вывод кольца с входной последовательностью 1 0 .. 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="вывод кольца с входной последовательностью 1 0 .. 0" />
+    <MESSAGE value="Вывод состояний, не вошедших в кольцо с начальной инициализацией" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вывод состояний, не вошедших в кольцо с начальной инициализацией" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="214" width="800" height="677" key="#New_File_Extensions" timestamp="1586778038883">
@@ -176,52 +178,52 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586160826036" />
-    <state width="1397" height="357" key="GridCell.Tab.0.bottom" timestamp="1588361505058">
+    <state width="1397" height="357" key="GridCell.Tab.0.bottom" timestamp="1588377726267">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="357" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1588361505058" />
+    <state width="1397" height="357" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1588377726267" />
     <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
     <state width="1807" height="456" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587317622526" />
-    <state width="1397" height="357" key="GridCell.Tab.0.center" timestamp="1588361505058">
+    <state width="1397" height="357" key="GridCell.Tab.0.center" timestamp="1588377726267">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="357" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1588361505058" />
+    <state width="1397" height="357" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1588377726267" />
     <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
     <state width="1807" height="456" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587317622524" />
-    <state width="1397" height="357" key="GridCell.Tab.0.left" timestamp="1588361505058">
+    <state width="1397" height="357" key="GridCell.Tab.0.left" timestamp="1588377726267">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="357" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1588361505058" />
+    <state width="1397" height="357" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1588377726267" />
     <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
     <state width="1807" height="456" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587317622522" />
-    <state width="1397" height="357" key="GridCell.Tab.0.right" timestamp="1588361505058">
+    <state width="1397" height="357" key="GridCell.Tab.0.right" timestamp="1588377726267">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="357" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1588361505058" />
+    <state width="1397" height="357" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1588377726267" />
     <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
     <state width="1807" height="456" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587317622525" />
-    <state width="620" height="523" key="GridCell.Tab.1.bottom" timestamp="1588361067352">
+    <state width="620" height="793" key="GridCell.Tab.1.bottom" timestamp="1588361631001">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="620" height="523" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1588361067352" />
+    <state width="620" height="793" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1588361631001" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
     <state width="1807" height="416" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587317179488" />
-    <state width="620" height="523" key="GridCell.Tab.1.center" timestamp="1588361067352">
+    <state width="620" height="793" key="GridCell.Tab.1.center" timestamp="1588361631000">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="620" height="523" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1588361067352" />
+    <state width="620" height="793" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1588361631000" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
     <state width="1807" height="416" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587317179487" />
-    <state width="620" height="523" key="GridCell.Tab.1.left" timestamp="1588361067351">
+    <state width="620" height="793" key="GridCell.Tab.1.left" timestamp="1588361631000">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="620" height="523" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1588361067351" />
+    <state width="620" height="793" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1588361631000" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
     <state width="1807" height="416" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587317179487" />
-    <state width="620" height="523" key="GridCell.Tab.1.right" timestamp="1588361067352">
+    <state width="620" height="793" key="GridCell.Tab.1.right" timestamp="1588361631000">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="620" height="523" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1588361067352" />
+    <state width="620" height="793" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1588361631000" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
     <state width="1807" height="416" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587317179488" />
     <state x="343" y="137" key="SettingsEditor" timestamp="1588024953107">
@@ -230,9 +232,10 @@
     <state x="343" y="137" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1588024953107" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586270456361" />
     <state x="509" y="184" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1587315135687" />
-    <state x="600" y="283" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587034522568">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="414" y="224" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588361611203">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
+    <state x="414" y="224" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1588361611203" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586257998070" />
     <state x="600" y="283" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1587034522568" />
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586157901019">
