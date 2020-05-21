@@ -4,4 +4,4 @@ project(lsfr)
 set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(lsfr  stage.cpp)
-add_executable(lsfr  main.cpp)
+add_executable(lsfr  main.cpp test.cpp)

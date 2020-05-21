@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Projects/LSFR/main.cpp" "D:/Projects/LSFR/cmake-build-debug/CMakeFiles/lsfr.dir/main.cpp.obj"
+  "D:/Projects/LSFR/test.cpp" "D:/Projects/LSFR/cmake-build-debug/CMakeFiles/lsfr.dir/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

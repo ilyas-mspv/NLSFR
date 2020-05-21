@@ -29,17 +29,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73bf7dc4-067f-4b3a-b51c-05a0f3b9ca6e" name="Default Changelist" comment="Исполнен полный вывод всех состояний регистра.">
+    <list default="true" id="73bf7dc4-067f-4b3a-b51c-05a0f3b9ca6e" name="Default Changelist" comment="Вывод в файл и в консоль">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lsfr.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lsfr.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lsfr.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lsfr.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lsfr.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +119,8 @@
       <workItem from="1588868858983" duration="1253000" />
       <workItem from="1588936772578" duration="8000" />
       <workItem from="1589225828561" duration="154000" />
-      <workItem from="1589660252323" duration="6357000" />
+      <workItem from="1589660252323" duration="6723000" />
+      <workItem from="1590068146955" duration="8507000" />
     </task>
     <task id="LOCAL-00001" summary="file support">
       <created>1586257995083</created>
@@ -144,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588377825216</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Вывод в файл и в консоль">
+      <created>1589715943807</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589715943808</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +181,8 @@
     <MESSAGE value="вывод кольца с входной последовательностью 1 0 .. 0" />
     <MESSAGE value="Вывод состояний, не вошедших в кольцо с начальной инициализацией" />
     <MESSAGE value="Исполнен полный вывод всех состояний регистра." />
-    <option name="LAST_COMMIT_MESSAGE" value="Исполнен полный вывод всех состояний регистра." />
+    <MESSAGE value="Вывод в файл и в консоль" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вывод в файл и в консоль" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="214" width="800" height="677" key="#New_File_Extensions" timestamp="1586778038883">
@@ -196,52 +210,52 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586160826036" />
-    <state width="675" height="359" key="GridCell.Tab.0.bottom" timestamp="1589715026134">
+    <state width="1397" height="359" key="GridCell.Tab.0.bottom" timestamp="1590087569153">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="675" height="359" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1589715026134" />
+    <state width="1397" height="359" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1590087569153" />
     <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
     <state width="1807" height="456" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587317622526" />
-    <state width="675" height="359" key="GridCell.Tab.0.center" timestamp="1589715026134">
+    <state width="1397" height="359" key="GridCell.Tab.0.center" timestamp="1590087569152">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="675" height="359" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1589715026134" />
+    <state width="1397" height="359" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1590087569152" />
     <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
     <state width="1807" height="456" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587317622524" />
-    <state width="675" height="359" key="GridCell.Tab.0.left" timestamp="1589715026134">
+    <state width="1397" height="359" key="GridCell.Tab.0.left" timestamp="1590087569152">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="675" height="359" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1589715026134" />
+    <state width="1397" height="359" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1590087569152" />
     <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
     <state width="1807" height="456" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587317622522" />
-    <state width="675" height="359" key="GridCell.Tab.0.right" timestamp="1589715026134">
+    <state width="1397" height="359" key="GridCell.Tab.0.right" timestamp="1590087569153">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="675" height="359" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1589715026134" />
+    <state width="1397" height="359" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1590087569153" />
     <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586271419384" />
     <state width="1807" height="456" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587317622525" />
-    <state width="620" height="528" key="GridCell.Tab.1.bottom" timestamp="1589711648490">
+    <state width="620" height="528" key="GridCell.Tab.1.bottom" timestamp="1589716190763">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="620" height="528" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1589711648490" />
+    <state width="620" height="528" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1589716190763" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
     <state width="1807" height="416" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587317179488" />
-    <state width="620" height="528" key="GridCell.Tab.1.center" timestamp="1589711648490">
+    <state width="620" height="528" key="GridCell.Tab.1.center" timestamp="1589716190763">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="620" height="528" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1589711648490" />
+    <state width="620" height="528" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1589716190763" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
     <state width="1807" height="416" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587317179487" />
-    <state width="620" height="528" key="GridCell.Tab.1.left" timestamp="1589711648490">
+    <state width="620" height="528" key="GridCell.Tab.1.left" timestamp="1589716190763">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="620" height="528" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1589711648490" />
+    <state width="620" height="528" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1589716190763" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
     <state width="1807" height="416" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587317179487" />
-    <state width="620" height="528" key="GridCell.Tab.1.right" timestamp="1589711648490">
+    <state width="620" height="528" key="GridCell.Tab.1.right" timestamp="1589716190763">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="620" height="528" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1589711648490" />
+    <state width="620" height="528" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1589716190763" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586270632936" />
     <state width="1807" height="416" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587317179488" />
     <state x="343" y="137" key="SettingsEditor" timestamp="1588024953107">
@@ -250,10 +264,10 @@
     <state x="343" y="137" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1588024953107" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586270456361" />
     <state x="509" y="184" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1587315135687" />
-    <state x="414" y="224" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588377829569">
+    <state x="414" y="224" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589715952600">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="414" y="224" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1588377829569" />
+    <state x="414" y="224" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1589715952600" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586257998070" />
     <state x="600" y="283" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1587034522568" />
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586157901019">

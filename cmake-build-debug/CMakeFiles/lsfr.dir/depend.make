@@ -3,3 +3,5 @@
 
 CMakeFiles/lsfr.dir/main.cpp.obj: ../main.cpp
 
+CMakeFiles/lsfr.dir/test.cpp.obj: ../test.cpp
+

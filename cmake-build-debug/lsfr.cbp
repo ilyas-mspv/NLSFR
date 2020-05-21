@@ -83,6 +83,9 @@
 		<Unit filename="D:/Projects/LSFR/main.cpp">
 			<Option target="lsfr"/>
 		</Unit>
+		<Unit filename="D:/Projects/LSFR/test.cpp">
+			<Option target="lsfr"/>
+		</Unit>
 		<Unit filename="D:/Projects/LSFR/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
